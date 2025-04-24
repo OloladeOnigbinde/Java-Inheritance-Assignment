@@ -1,0 +1,17 @@
+class Student {
+    void write() {
+        System.out.println("The student writes exams.");
+    }
+}
+
+class Fola extends Student {
+    void eat() {
+        System.out.println("Fola eats food.");
+    }
+}
+
+class Kemi extends Student {
+    void read() {
+        System.out.println("Kemi reads books.");
+    }
+}
